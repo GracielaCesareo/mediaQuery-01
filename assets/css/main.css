@@ -1,0 +1,49 @@
+.hijo {
+  text-align: center;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 65px;
+}
+
+@media (max-width: 320px) {
+  .hijo {
+    width: 50%;
+    font-size:25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hijo {
+    width: 70%;
+    font-size:35px;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .hijo {
+      width: 90%;
+      font-size:45px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hijo {
+    background-color: 100%;
+    font-size:55px;
+  }
+}
+
+/*@media (max-width: 1200px) {
+  .fondo {
+      background-color: red;
+  }
+}*/
